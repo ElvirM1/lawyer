@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+﻿# Murat Krasniqi — Law Firm Website
+
+Modern, high-end informational website for a lawyer based in Pejë, Kosovo.
+
+## Tech Stack
+
+- **Next.js** 16 (App Router, static output)
+- **TypeScript** (strict mode)
+- **Tailwind CSS** v4
+- **Framer Motion** (animations)
+
+## Features
+
+- Fully responsive (mobile + desktop)
+- WhatsApp contact integration (form opens prefilled message)
+- Premium UI/UX with cinematic hero section
+- SEO optimized (metadata, Open Graph, Twitter card)
+- Favicon via Next.js App Router icon
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+app/
+  layout.tsx       # Root layout, fonts, metadata
+  page.tsx         # Single page, assembles all sections
+  globals.css      # Tailwind v4, CSS variables
+  icon.tsx         # Favicon (MK initials)
+components/
+  Navbar.tsx       # Fixed scroll-aware navbar, hamburger
+  Hero.tsx         # Full-bleed cinematic hero
+  About.tsx        # Portrait + biography
+  Services.tsx     # 5 practice areas, horizontal row layout
+  WhyChooseMe.tsx  # 4 reasons, dark section
+  Contact.tsx      # WhatsApp form + contact info
+  Footer.tsx       # Dark footer with credentials
+public/
+  images/
+    hero-image.png
+    portrait.png
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact Integration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Form submits via WhatsApp redirect — no backend required.
+Number: +383 44 260 652
