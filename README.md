@@ -1,4 +1,4 @@
-﻿# Murat Krasniqi — Law Firm Website
+ — Law Firm Website
 
 Modern, high-end informational website for a lawyer based in Pejë, Kosovo.
 
@@ -58,4 +58,4 @@ public/
 ## Contact Integration
 
 Form submits via WhatsApp redirect — no backend required.
-Number: +383 44 260 652
+
