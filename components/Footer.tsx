@@ -62,6 +62,12 @@ export default function Footer() {
               >
                 +383 44 260 652
               </a>
+              <a
+                href="mailto:avmuratkrasniqi@gmail.com"
+                className="text-[#777] text-[13px] hover:text-[#C8A96A] transition-colors duration-300 break-all"
+              >
+                avmuratkrasniqi@gmail.com
+              </a>
               <p className="text-[#777] text-[13px] leading-relaxed">
                 E Hënë – E Premte
               </p>
