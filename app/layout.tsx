@@ -17,30 +17,36 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://muratkrasniqi.com"),
-  title: "Murat Krasniqi — Avokat | Pejë, Kosovë",
+  metadataBase: new URL("https://muratkrasniqi-avokat.com"),
+  title: "Murat Krasniqi – Avokat në Pejë | Konsulencë Ligjore",
   description:
-    "Murat Krasniqi — Avokat i kualifikuar në Pejë, Kosovë. Shërbime ligjore profesionale në të drejtën civile, penale, biznesore dhe konsulencë ligjore.",
-  keywords: "avokat, lawyer, Pejë, Kosovo, Murat Krasniqi, juridik, ligji",
+    "Avokat Murat Krasniqi në Pejë. Shërbime ligjore profesionale: e drejtë civile, penale, biznesore dhe përfaqësim në gjykatë.",
+  keywords:
+    "avokat Pejë, Murat Krasniqi avokat, avokat Kosovë, e drejtë civile, avokat penal, lawyer Kosovo",
+  verification: {
+    google: "ADD_CODE_HERE",
+  },
   openGraph: {
-    title: "Murat Krasniqi — Avokat | Pejë, Kosovë",
+    title: "Murat Krasniqi – Avokat në Pejë | Konsulencë Ligjore",
     description:
-      "Shërbime ligjore profesionale me përvojë dhe besueshmëri në Pejë, Kosovë.",
+      "Avokat Murat Krasniqi në Pejë. Shërbime ligjore profesionale: e drejtë civile, penale, biznesore dhe përfaqësim në gjykatë.",
     type: "website",
+    url: "https://muratkrasniqi-avokat.com",
     locale: "sq_AL",
     images: [
       {
         url: "/images/hero-image.png",
         width: 1200,
         height: 630,
-        alt: "Murat Krasniqi — Avokat | Pejë, Kosovë",
+        alt: "Murat Krasniqi – Avokat në Pejë | Konsulencë Ligjore",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Murat Krasniqi — Avokat | Pejë, Kosovë",
-    description: "Shërbime ligjore profesionale në Pejë, Kosovë.",
+    title: "Murat Krasniqi – Avokat në Pejë | Konsulencë Ligjore",
+    description:
+      "Avokat Murat Krasniqi në Pejë. Shërbime ligjore profesionale: e drejtë civile, penale, biznesore dhe përfaqësim në gjykatë.",
     images: ["/images/hero-image.png"],
   },
 };
