@@ -61,6 +61,12 @@ export default function RootLayout({
       lang="sq"
       className={`${playfair.variable} ${inter.variable} h-full antialiased`}
     >
+      <head>
+        <meta
+          name="google-site-verification"
+          content="3nNaZGDp1x6nBT5U8GfhjWxMpFI8S15LUtrARR4bZ0I"
+        />
+      </head>
       <body className="min-h-full flex flex-col font-[family-name:var(--font-inter)]">
         {children}
       </body>

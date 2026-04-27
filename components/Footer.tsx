@@ -1,3 +1,4 @@
+// v2
 const navLinks = [
   { label: "Rreth Meje", href: "#about" },
   { label: "Shërbimet", href: "#services" },
