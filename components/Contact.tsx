@@ -197,7 +197,7 @@ export default function Contact() {
                     <p className="text-[10px] tracking-[0.2em] uppercase text-[#bbb] mb-1 font-medium">
                       {item.label}
                     </p>
-                    <p className="text-[#333] text-[14px] group-hover:text-[#C8A96A] transition-colors duration-300">
+                    <p className="text-[#333] text-[14px] group-hover:text-[#C8A96A] transition-colors duration-300 break-all">
                       {item.value}
                     </p>
                   </div>
