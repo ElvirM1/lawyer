@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   keywords:
     "avokat Pejë, Murat Krasniqi avokat, avokat Kosovë, e drejtë civile, avokat penal, lawyer Kosovo",
   verification: {
-    google: "ADD_CODE_HERE",
+    google: "3nNaZGDp1x6nBT5U8GfhjWxMpFI8S15LUtrARR4bZ0I",
   },
   openGraph: {
     title: "Murat Krasniqi – Avokat në Pejë | Konsulencë Ligjore",
